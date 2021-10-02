@@ -1,0 +1,8 @@
+# Ignore python notebooks specific files
+.ipynb_checkpoints
+
+# Ignore .hdf5 files (they're downloaded)
+*.hdf5
+
+# Ignore .vscode folder
+.vscode
