@@ -6,3 +6,7 @@
 
 # Ignore .vscode folder
 .vscode
+.vs
+
+# Ignore database files
+PANDAR_database_1.0/
