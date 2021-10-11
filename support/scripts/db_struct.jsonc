@@ -1,0 +1,23 @@
+{
+    "sample_rate": 48000,   // Hz
+    "acoustic_booth": [
+        {
+            "P": [ 
+                // Medición de P(z) (Incluye transferencias del micrófono)
+                [], // L
+                []  // R
+            ],
+            "G": [ 
+                // Medición de G_AF(z) (Incluye parlante y micrófono de error, no ADC y DAC)
+                [], // L
+                []  // R
+            ],
+            "F": [ 
+                // Medición de F_AF(z) (Incluye parlante y micrófono de referencia, no ADC y DAC)
+                [], // L
+                []  // R
+            ]
+        }
+        // ,...
+    ]
+}
