@@ -19,5 +19,26 @@
             ]
         }
         // ,...
-    ]
+    ],
+    "anechoic_chamber": 
+        {
+            "primary": [
+                [
+                    // Medición de P(z) (Incluye transferencias del micrófono)
+                    [], // L
+                    []  // R
+                ]
+                // ,...
+            ],
+            "secondary": [
+                // Medición de G_AF(z) (Incluye parlante y micrófono de error, no ADC y DAC)
+                [], // L
+                []  // R
+            ],
+            "feedback": [ 
+                // Medición de F_AF(z) (Incluye parlante y micrófono de referencia, no ADC y DAC)
+                [], // L
+                []  // R
+            ]
+        }
 }
