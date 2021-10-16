@@ -10,3 +10,6 @@
 
 # Ignore database files
 PANDAR_database_1.0/
+
+# Ignore matlab backup files
+*.asv
